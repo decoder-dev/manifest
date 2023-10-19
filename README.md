@@ -1,11 +1,11 @@
-# Pixel Experience #
+# Aurora #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience-EXCLUSIVE-edition/manifest -b thirteen-plus
+git init https://github.com/decoder-dev/manifest.git -b thirteen-plus
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
